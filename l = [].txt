@@ -1,0 +1,11 @@
+l = []
+n = input()
+l.append(n)
+if l[0]>=0 and l[1]>=0 :
+    print("1")
+elif l[0]<0 and l[1]>=0 :
+    print("2")
+elif l[0]<0 and l[1]<0 :
+    print("3")
+else:
+    print("4")
